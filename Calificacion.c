@@ -1,18 +1,13 @@
 #include <stdio.h>
-#include <string.h>
-
-int main(void)
+#include <cs50.h>
+int main(int argc, string argv [])
 {
-    // Variables
-    char nombre[50];
-    float cal1, cal2, cal3, promedio;
+    for (int i = 0; i < argc; i++)
+    {
+        printf("%s\n", argv [i]);
+    }
 
-    // Leer nombre completo con espacios
-    printf("¡Hola! ¿Cómo te llamas?\n");
-    fgets(nombre, sizeof(nombre), stdin);
-
-    // Eliminar el salto de línea que deja fgets
-    nombre[strcspn(nombre, "\n")] = '\0';
+    float cal1, cal2,cal3, promedio;
 
     // Calificaciones
     printf("Ahora calculemos el promedio de 3 calificaciones.\n");
@@ -26,9 +21,10 @@ int main(void)
     printf("Ingresa la tercera calificación (1 a 10):\n");
     scanf("%f", &cal3);
 
-
     // Calcular promedio
     promedio = (cal1 + cal2 + cal3) / 3;
+    printf("El promedio es: %.2f\n", promedio);
 
     return 0;
+
 }
