@@ -1,0 +1,35 @@
+
+
+1. 'Preprocesamiento y compilación'
+
+Se explica cómo funciona el comando "clang" y cómo "make" automatiza los pasos: "preprocesamiento", "compilación a ensamblador", "ensamblaje a código máquina" y "linkeo" de bibliotecas 
+Se introduce la técnica de regla del pato de goma ("rubber duck debugging") para descubrir errores al explicar el código en voz alta .
+
+
+2. 'Arreglos (Arrays)'
+
+Introducción a los arrays como colecciones de variables del mismo tipo, almacenadas de form acontigua en memoria, accesibles por índice 
+Se muestran ejemplos prácticos en C para declarar y manipular arrays ("int numeros[5] = { … }").
+Se discuten errores comunes como "overflow" al acceder fuera de los límites del arreglo.
+
+
+3. 'Cadenas (Strings)'
+
+Las cadenas se tratan como arrays de "char" que terminan con el carácter especial "'\0'".
+Se presenta "strlen" para medir su longitud y se advierte sobre su gestión segura en C.
+
+
+4. 'Argumentos en la línea de comandos y estado de salida'
+
+Cómo usar "argc" y "argv[]" en la función "main" para recibir parámetros desde la terminal.
+Se enseña el uso de "códigos de salida" ("return 0", "return 1") y cómo comprobarlos con "echo $?".
+
+
+5. 'Criptografía sencilla'
+
+Se muestra un ejemplo básico de algoritmos de cifrado por Cesar para ilustrar manipulación de strings, loops y uso de ASCII.
+
+
+6. 'Depuración'
+
+Se recomienda el uso de 'debugger' (`debug50` en VS Code) para ejecutar paso a paso, inspeccionar variables, usar breakpoints, etc. 
