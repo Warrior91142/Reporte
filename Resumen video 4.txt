@@ -1,0 +1,68 @@
+Búsqueda Lineal:
+
+Recorre todos los elementos uno por uno.
+Ineficiente en listas grandes.
+Complejidad: O(n) en el peor caso.
+
+Búsqueda Binaria:
+
+Solo funciona en listas ordenadas.
+Divide el conjunto a la mitad repetidamente hasta encontrar, o no el elemento.
+Mucho más rápida que la lineal.
+Complejidad: O(log n).
+
+Ordenamiento:
+
+Se explican varios algoritmos de ordenamiento, con énfasis en su lógica, eficiencia y cuándo usarlos.
+
+Bubble Sort:
+
+Recorre la lista comparando pares adyacentes y los intercambia si están en el orden incorrecto.
+Muy simple, pero lento.
+Complejidad: O(n²).
+
+Selection Sort:
+
+Busca el elemento más pequeño en el arreglo y lo coloca al inicio.
+Algo más eficiente que Bubble, pero aún limitado.
+Complejidad: O(n²).
+
+Merge Sort:
+
+Divide la lista en mitades hasta que solo quedan elementos individuales.
+Luego las va juntando ordenadamente.
+Mucho más rápido y escalable.
+Complejidad: O(n log n).
+
+Ventaja: 
+Funciona bien con listas grandes y su rendimiento es consistente.
+
+Para comparar algoritmos no solo por su lógica, sino por su rendimiento, se introduce la notación matemática de eficiencia:
+
+O (Big O): peor caso.
+Ω (Omega): mejor caso.
+Θ (Theta): caso promedio.
+
+Ejemplo:
+Buscar un nombre en una lista de 1 millón de personas puede tardar 1 millón de pasos con búsqueda lineal, pero solo 20 con búsqueda binaria.
+
+Recursión:
+
+Un concepto poderoso en programación donde una función se llama a sí misma para resolver un problema.
+
+Ejemplo:
+
+Merge Sort usa recursión para dividir la lista hasta tener sublistas individuales.
+También se mencionan ejemplos como calcular factoriales.
+
+Otros elementos mencionados:
+
+Se muestran animaciones para ilustrar el movimiento de datos en los algoritmos.
+Se hace énfasis en la visualización del tiempo de ejecución para comparar rendimiento.
+El profesor usa analogías sencillas (como buscar en una guía telefónica o ordenar una baraja) para explicar conceptos complejos.
+
+Conclusión de la clase:
+
+Los algoritmos son herramientas fundamentales para todo desarrollador.
+Entender su eficiencia permite escribir código más rápido y óptimo.
+Saber elegir el algoritmo correcto es tan importante como saber programarlo.
