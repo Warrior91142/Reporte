@@ -1,0 +1,57 @@
+Tema principal: Estructuras de Datos
+
+Esta clase se enfoca en la importancia de cómo organizamos y almacenamos datos en la memoria para poder manipularlos de manera eficiente. A lo largo de la sesión se exploran diferentes estructuras de datos clave, sus ventajas, desventajas y casos de uso.
+
+Pilas (Stacks):
+
+Definición: Estructura tipo LIFO (Last In, First Out).
+Ejemplo: Poner y sacar platos de una pila.
+Operaciones: "push()" para insertar, "pop()" para extraer.
+Usos comunes: control de navegación en navegadores, llamada de funciones (call stack).
+
+Colas (Queues):
+
+Definición: Estructura tipo FIFO (First In, First Out).
+Ejemplo: Una fila en una tienda.
+Operaciones: "enqueue()" (agregar al final), "dequeue()" (eliminar del principio).
+Usos: planificación de procesos, impresión de documentos.
+
+Listas Enlazadas (Linked Lists):
+
+Estructura dinámica donde cada elemento apunta al siguiente.
+Tipos:
+Singly Linked List: un solo enlace al siguiente nodo.
+Doubly Linked List: enlace al anterior y siguiente.
+Ventajas: inserciones y eliminaciones eficientes sin necesidad de mover otros elementos.
+Desventaja: acceso secuencial, no aleatorio.
+
+Árboles (Trees):
+
+Estructura jerárquica.
+Se introduce el Árbol Binario de Búsqueda (BST):
+
+Cada nodo tiene hasta dos hijos.
+El hijo izquierdo contiene un valor menor, el derecho un valor mayor.
+Permite búsquedas, inserciones y eliminaciones rápidas si está balanceado.
+
+Tablas Hash (Hash Tables):
+
+Usa una función hash para mapear claves a posiciones en un arreglo.
+Muy eficiente para búsquedas y almacenamiento.
+Pueden haber colisiones (cuando dos claves generan el mismo hash), que se manejan con técnicas como encadenamiento o direccionamiento abierto.
+
+Tries:
+
+Árbol especial utilizado para almacenar cadenas, especialmente útiles para diccionarios o motores de búsqueda.
+Permite búsquedas de prefijos con gran eficiencia.
+Cada nodo representa una letra, y las ramas forman palabras.
+
+"Demostraciones en C":
+
+Durante la clase, se muestra cómo implementar algunas de estas estructuras usando el lenguaje C, lo que permite comprender mejor el manejo de memoria, punteros y estructuras.
+
+Conceptos clave:
+
+Elección adecuada de la estructura según el problema.
+Eficiencia temporal y espacial de cada estructura.
+Cómo se conectan estos conceptos con sistemas reales (como bases de datos, juegos, apps).
