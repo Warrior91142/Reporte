@@ -1,0 +1,84 @@
+El profesor comienza explicando que, aunque en lecciones anteriores se usó C para aprender conceptos fundamentales, **Python permite lograr lo mismo de forma más simple** y con una sintaxis más legible.
+
+-En C se necesita mucha estructura (como tipos, punteros, memoria), mientras que Python se encarga de muchas de esas cosas automáticamente.
+
+"Funciones en Python"
+
+*Se define con `def nombre_funcion():`
+*No necesitas declarar el tipo del argumento ni del valor de retorno.
+
+def cuadrado(n):
+    return n * n
+
+-También muestran cómo organizar el código en un bloque principal usando `if __name__ == "__main__":` para que el archivo se pueda ejecutar o importar sin conflictos.
+
+"Uso de argumentos"
+
+-Muestran cómo pasar parámetros desde la línea de comandos con `sys.argv`:
+
+import sys
+
+if len(sys.argv) == 2:
+    print(f"Hola, {sys.argv[1]}")
+else:
+    print("Uso: python hola.py nombre")
+
+"Condicionales (`if`, `elif`, `else`)"
+
+-El profesor enseña cómo tomar decisiones en Python de forma muy parecida a C, pero sin paréntesis ni llaves:
+
+x = int(input("x: "))
+y = int(input("y: "))
+
+if x < y:
+    print("x es menor que y")
+elif x > y:
+    print("x es mayor que y")
+else:
+    print("x es igual a y")
+
+"Loops"
+
+`for`
+
+-Para iterar una cantidad de veces:
+
+for i in range(3):
+    print("Hola")
+
+`while`
+
+-Se repite hasta que se cumpla una condición:
+
+i = 0
+while i < 3:
+    print("Hola")
+    i += 1
+
+"Booleanos"
+
+-Explica cómo usar comparaciones con valores `True` o `False` y operadores lógicos como `and`, `or`, `not`.
+
+"Módulos"
+
+-Se enseña cómo importar módulos de Python (como `random`) para extender el programa:
+
+import random
+
+coin = random.choice(["cara", "cruz"])
+print(coin)
+
+-También muestra cómo crear tus propios módulos en otros archivos `.py`.
+
+"Buenas prácticas"
+
+*Usa nombres descriptivos
+*Escribe funciones pequeñas
+*Separa lógica del código principal
+*Usa `main()` para comenzar tu programa:
+
+def main():
+    print("Hola")
+
+if __name__ == "__main__":
+    main()
