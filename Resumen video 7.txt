@@ -1,0 +1,30 @@
+1.¿Qué es la inteligencia artificial?
+
+   *Se introduce el concepto de IA: sistemas que simulan comportamientos humanos inteligentes.
+   *Se explica la diferencia entre IA débil (limitada a tareas específicas) e IA fuerte (capaz de razonar y aprender de forma general).
+
+2.Aprendizaje supervisado vs no supervisado
+
+   *Supervisado: Se entrena un modelo con datos etiquetados (por ejemplo, imágenes de gatos y perros).
+   *No supervisado: El sistema encuentra patrones en los datos sin etiquetas previas (como agrupamientos o "clusters").
+
+3.Algoritmos importantes:
+
+   *K-nearest neighbors (KNN): Clasifica datos basados en los vecinos más cercanos.
+   *Redes neuronales: Modelos que simulan cómo aprende el cerebro humano.
+   *Regresión lineal y logística: Usados para hacer predicciones.
+
+4.Aplicaciones del mundo real
+
+   *Visión por computadora (reconocimiento de imágenes)
+   *Procesamiento de lenguaje natural (como el que usa ChatGPT)
+   *Juegos y agentes autónomos (como IA que juega ajedrez o videojuegos)
+
+
+Código y demostraciones
+
+Durante la clase, el profesor y su equipo muestran ejemplos en vivo de código en Python, usando librerías como:
+
+*scikit-learn**
+*TensorFlow**
+*pandas y NumPy**
