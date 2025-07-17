@@ -1,0 +1,33 @@
+
+En esta clase, el profesor te introduce al mundo de las "bases de datos relacionales", que son sistemas que almacenan y organizan información en tablas, algo parecido a una hoja de cálculo, pero mucho más poderosa.
+
+¿Qué es SQL?
+
+SQL (Structured Query Language) es un lenguaje para:
+
+Crear estructuras de datos (como tablas).
+Insertar, modificar y eliminar información.
+Buscar datos de forma eficiente.
+
+Conceptos clave que enseña la clase:
+
+1. Tablas
+Son como hojas con columnas y filas. Cada tabla representa un tipo de información, como usuarios, productos o películas.
+
+2. Llaves primarias y foráneas
+
+Llave primaria: Identifica de forma única a cada fila (por ejemplo, el ID de un usuario).
+Llave foránea: Conecta una tabla con otra (por ejemplo, un usuario puede tener muchas reseñas).
+
+3. Consultas con 'SELECT'
+   Enseña a buscar información específica. Por ejemplo:
+
+  'SELECT nombre FROM usuarios WHERE edad > 18;'
+
+4. JOINS (uniones)
+   Combinas información de varias tablas relacionadas. Muy útil para obtener datos complejos.
+
+5. Índices e inyección SQL
+
+Aprenderás cómo acelerar búsquedas usando índices.
+Y cómo evitar errores de seguridad (como cuando un atacante modifica tu consulta).
