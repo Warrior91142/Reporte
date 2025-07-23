@@ -1,0 +1,35 @@
+1. HTML (HyperText Markup Language)
+
+   Es el lenguaje base para estructurar páginas web.
+   Se usan etiquetas para definir elementos: párrafos, títulos, listas, imágenes, enlaces, formularios, etc.
+   La estructura básica: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`.
+
+2. CSS (Cascading Style Sheets)
+
+   Lenguaje para estilizar la apariencia visual de la página.
+   Se puede aplicar color, fuentes, márgenes, posicionamiento, animaciones, entre otros.
+   Formas de aplicar CSS: inline, interno (en `<style>`), externo (archivo `.css`).
+
+3. JavaScript
+
+   Lenguaje de programación para añadir interactividad a la página.
+   Permite manipular el DOM (Document Object Model) para cambiar contenido, estilos y responder a eventos (clics, teclas, etc.).
+   Ejemplos: validar formularios, mostrar alertas, crear efectos dinámicos.
+
+4. Relación entre HTML, CSS y JavaScript
+
+   HTML estructura la página.
+   CSS la embellece.
+   JavaScript la hace interactiva y dinámica.
+
+5. Herramientas y prácticas recomendadas
+
+   Uso de DevTools en navegadores para depurar y probar código.
+   Buenas prácticas de organización y separación de código (HTML, CSS y JS en archivos separados).
+   Introducción a conceptos como selectores CSS, eventos JS, funciones, etc.
+
+6. Ejemplos prácticos
+
+   Crear una página básica con contenido HTML.
+   Aplicar estilos CSS para modificar colores y diseño.
+   Añadir JavaScript para responder a clics o entradas del usuario.
