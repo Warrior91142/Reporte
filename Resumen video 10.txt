@@ -1,0 +1,41 @@
+Introducción a Flask
+
+Explicación de qué es Flask y para qué sirve.
+Cómo iniciar un servidor web en Python usando flask run.
+Estructura básica del proyecto: app.py, requirements.txt.
+
+Enrutamiento y métodos HTTP
+
+Definición de rutas con el decorador @app.route.
+Diferencias entre los métodos 'GET' y 'POST'.
+Uso de "request.args.get()" para parámetros en GET.
+Uso de "request.form.get()" para datos enviados vía POST.
+
+Formularios HTML y procesamiento
+
+Creación de formularios simples en plantillas HTML.
+Cómo capturar y procesar datos enviados desde un formulario.
+Ejemplo práctico: formulario que envía datos y se muestran en otra ruta.
+
+Templates con Jinja
+
+Uso de plantillas dinámicas con Jinja en Flask.
+Herencia de plantillas: 'layout.html' y bloques como '{% block body %}'.
+Cómo integrar variables en HTML con '{{ }}'.
+Uso de bucles (`for`) y condicionales (`if`) dentro de plantillas.
+
+Sesiones y cookies
+
+Introducción al objeto "session" en Flask para almacenar datos del usuario.
+Ejemplo práctico: carrito de compras usando sesiones.
+Explicación del uso de cookies para mantener información entre peticiones.
+
+
+JSON y APIs
+
+Cómo devolver datos en formato JSON desde rutas Flask.
+Breve introducción a consumir APIs externas.
+Preparación para integrar Flask con JavaScript en el frontend.
+
+CONCLUSION 
+La clase enseña cómo construir aplicaciones web dinámicas con Flask, usando rutas, formularios, plantillas, sesiones y respuestas JSON, preparando la base para proyectos más avanzados.
